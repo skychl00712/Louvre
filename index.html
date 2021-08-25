@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOUVRE</title>
+    <!--구글 폰트-->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@400;500;900&family=Noto+Serif+JP:wght@400;500;900&display=swap" rel="stylesheet">
+     <!--pc css-->
+     <link rel="stylesheet" href="pc.css"
+     media="screen and ( min-width:768px)">
+     <!--mobile css-->
+     <link rel="stylesheet" href="mobile.css"
+     media="screen and ( max-width:767px)">
+     <!--스와이퍼-->
+     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+ 
+</head>
+<style>
+
+.swiper-pagination{
+    margin-bottom: 130px;
+}
+.swiper-button-prev, .swiper-button-next{
+    color: black;
+
+}
+.swiper-text h2{
+    padding: 10px;
+}
+.swiper-text .swiper-btn:hover{
+    background-color: black;
+}
+.swiper-btn{
+    background-color: #008573;
+    padding: 10px;
+    width: 746px;
+    margin: auto;
+}
+
+</style>
+<body>
+    <header>
+        <div id="header1">
+            <div class="form">
+                <form action="">
+                    <select name="" id="">
+                        <option value="English">English</option>
+                        <option value="français">français</option>
+                        <option value="Español">Español</option>
+                    </select>
+                </form>
+            </div>
+            <div class="logo">
+                <h1 style="font-size: 20px; font-weight: 400;">
+                    <a href="index.html"><span style="font-size: 28px;">L</span>OUVRE</a></h1>
+            </div>
+            <div class="shop">
+                <ul>
+                    <li><a href="">Shop</a></li>
+                    <li class="ticket"><a href="">Tickets</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="header2">
+            <nav>
+                <ul>
+                    <li><a href="">VISIT</a></li>
+                    <li><a href="">EXPLORE</a></li>
+                    <li><a href="">WHAT'S ON</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+
+
+    </header>
+    <section id="section1" >
+        <video
+         id="video"
+         src="./images/video.mp4"
+         autoplay
+         loop
+         > 
+        </video>
+    </section>
+    <section id="section2">
+        <h2>LOUVRE AT HOME</h2>
+    <div class="contents">
+     <!-- 슬라이더 메인 레이아웃 -->
+   <div class="swiper-container">
+    <!-- 슬라이더 본체 감싸는 틀 -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">
+          <img src="./images/story.png" alt="story">
+          <div class="swiper-text">
+              <p class="swiper-btn"><a href="">Stories</a></p>
+              <h2>SEASONAL TALES</h2>
+              <P>Join us for a stoytime session in the museum</P>
+          </div>
+      </div>
+      <div class="swiper-slide">
+        <img src="./images/kid.png" alt="kid" >
+        <div class="swiper-text">
+            <p class="swiper-btn"><a href="">Kids</a></p>
+            <h2>SEASONAL TALES</h2>
+            <P>Join us for a stoytime session in the museum</P>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <img src="./images/vr.png" alt="vr">
+        <div class="swiper-text">
+            <p class="swiper-btn"><a href="">VR</a></p>
+            <h2>  MONA LISA : BEYOND THE CLASS</h2>
+            <p>Download the app</p>
+          
+        </div>
+      </div> 
+    </div>
+    <!-- 페이져 (아래 동그라미) -->
+    <div class="swiper-pagination"> </div>
+  </div>
+    </div>
+    </section>
+    <section id="section3">
+
+    </section>
+    <footer>
+        <div class="info"> 
+           <div  class="info1">
+                  <ul>
+                      <li>ABOUT
+                          <ul>
+                             <li><a href="">Visitor rules</a></li>
+                          </ul>
+                      </li>
+                  </ul>
+                  <ul>
+                    <li>OUR WEBSITES
+                        <ul>
+                            <li><a href="">Online ticketing service</a></li>
+                            <li><a href="">Online Boutique</a></li>
+                            <li><a href="">Collection</a></li>
+                            <li><a href="">Editions</a></li>
+                            <li><a href="">Donating online</a></li>
+                            <li><a href="">petite Galerle</a></li>
+                            <li><a href="">press</a></li>
+                        </ul>
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>CONTACT
+                        <ul>
+                            <li><a href="">FAQ</a></li>
+                        <li><a href="">contact us</a></li>
+                        <li><a href="">Give us your feedback</a></li>
+                        <li><a href="">Jops</a></li>
+                        <li><a href="">private event ans film shoots</a></li>
+
+                        </ul>
+                      </li>
+                  </ul>
+              </div>
+              <div class="info2">
+                <p>Follows US</p>
+                <div class="footer-logo">
+                    <img src="./images/facebook.png" alt="페이스북">
+                    <img src="./images/instgram.png" alt="인스타그램">
+                    <img src="./images/youtube.png" alt="유튜브">
+                    <img src="./images/twitter.png" alt="트위터">
+                </div>
+                <p>MEMBERSHIP</p>
+                <img src="./images/logo-amis-blanc-web.png" alt="멤버쉽" class="membership">
+              </div>
+              </div>
+              <div class="footerlast">
+                  <img src="./images/footer-logo.jpg" alt="루브르">
+              </div>
+              
+
+    </footer>
+
+    <script>
+        const swiper = new Swiper('.swiper-container', {
+      //자동재생
+      autoplay:{
+         delay: 5000,
+      },
+      // Optional parameters
+      direction: 'horizontal', //수직
+      loop: true, //반복 허용
+    
+    
+    
+      // 하단 동그라미 기본값(생략가능)
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    
+      // 화살표
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    
+  
+    
+    
+    });
+      </script>
+    
+</body>
+</html>
